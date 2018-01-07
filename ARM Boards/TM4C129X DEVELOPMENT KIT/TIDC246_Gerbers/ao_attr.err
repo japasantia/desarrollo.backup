@@ -1,0 +1,14 @@
+Assembly Variant Service has detected improper attribute values
+
+Mon Aug 12 09:43:17 2013
+
+Current Job : DK-TM4C129X_3.0.pcb
+
+
+Format:
+OBJ_NAME
+OLD_VALUE{EMPTY;TOO_LONG}
+NEW_VALUE{DELETED;TOO_LONG}
+RESUME
+
+

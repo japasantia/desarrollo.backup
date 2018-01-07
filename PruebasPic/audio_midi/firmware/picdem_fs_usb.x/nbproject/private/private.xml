@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/demo_src/app_device_audio_midi.c</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/demo_src/buttons.h</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/demo_src/system.c</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/demo_src/system.h</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/demo_src/buttons.c</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/picdem_fs_usb.x/fixed_address_memory.h</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/picdem_fs_usb.x/system.h</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/demo_src/usb_device_midi.h</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/demo_src/usb_descriptors.c</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/picdem_fs_usb.x/io_mapping.h</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/picdem_fs_usb.x/Makefile</file>
+            <file>file:/home/jsars/PruebasPic/audio_midi/firmware/picdem_fs_usb.x/system.c</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,13 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# PIC18F4550_XC8 configuration
+CND_ARTIFACT_DIR_PIC18F4550_XC8=dist/PIC18F4550_XC8/production
+CND_ARTIFACT_NAME_PIC18F4550_XC8=Cendit_HID_Bootloader_-_PIC18F4550.X.production.hex
+CND_ARTIFACT_PATH_PIC18F4550_XC8=dist/PIC18F4550_XC8/production/Cendit_HID_Bootloader_-_PIC18F4550.X.production.hex
+CND_PACKAGE_DIR_PIC18F4550_XC8=${CND_DISTDIR}/PIC18F4550_XC8/package
+CND_PACKAGE_NAME_PIC18F4550_XC8=cendithidbootloader-pic18f4550.x.tar
+CND_PACKAGE_PATH_PIC18F4550_XC8=${CND_DISTDIR}/PIC18F4550_XC8/package/cendithidbootloader-pic18f4550.x.tar
