@@ -31,7 +31,7 @@ please contact mla_licensing@microchip.com
 #include "usb_config.h"
 
 // BEGIN_MOD
-#include "user_commands.h"
+#include "../firmware/picdem_fs_usb.x/user_commands.h"
 // END_MOD
 
 /** VARIABLES ******************************************************/

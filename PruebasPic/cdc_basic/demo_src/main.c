@@ -28,8 +28,8 @@ please contact mla_licensing@microchip.com
 #include "usb_device_cdc.h"
 
 // BEGIN_MOD
-// #include "../firmware/picdem_fs_usb.x/user_commands.h"
-#include "user_commands.h"
+#include "../firmware/picdem_fs_usb.x/user_commands.h"
+// #include "user_commands.h"
 // END_MOD
 
 /********************************************************************
