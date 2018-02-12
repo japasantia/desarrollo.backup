@@ -13,10 +13,16 @@ public class JavaSimpleSerialConnectorTest
         try
         {
             System.out.println("Port opened: " + serialPort.openPort());
-            System.out.println("Params setterd: " + serialPort.setParams(9600,
+
+            System.out.println("Reading from port: " + serialPort.readString());
+
+            System.out.println("Params setted: " + serialPort.setParams(9600,
                     8, 1, 0));
             System.out.println("Successfully writen to port: " +
                 serialPort.writeString("ca"));
+
+            System.out.println("Reading from port: " + serialPort.readString());
+
             System.out.println("Port closed: " + serialPort.closePort());
         }
         catch (SerialPortException ex)
@@ -24,5 +30,4 @@ public class JavaSimpleSerialConnectorTest
             System.out.println(ex);
         }
     }
-
 }

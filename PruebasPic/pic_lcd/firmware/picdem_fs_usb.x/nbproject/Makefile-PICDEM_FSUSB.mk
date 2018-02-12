@@ -44,6 +44,12 @@ else
 COMPARISON_BUILD=
 endif
 
+ifdef SUB_IMAGE_ADDRESS
+
+else
+SUB_IMAGE_ADDRESS_COMMAND=
+endif
+
 # Object Directory
 OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 
@@ -382,7 +388,7 @@ dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb.x.${IMAGE_TYPE}.${OUTPUT_SUFFIX}: $
 	${MP_CC} $(MP_EXTRA_LD_PRE) --chip=$(MP_PROCESSOR_OPTION) -G -mdist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb.x.${IMAGE_TYPE}.map  --double=32 --float=32 --emi=bytewrite --rom=default,-0-1FFF,-2006-2007,-2016-2017 --opt=-asm,-asmfile,-speed,+space,-debug,-local --addrqual=require --mode=pro -P -N255 -I"/media/jsars/74D0704FD0701996/PasantiaCendit/Desarrollo/PruebasPic/pic_lcd/src" --warn=0 --asmlist -DXPRJ_PICDEM_FSUSB=$(CND_CONF)  --summary=default,-psect,-class,+mem,-hex,-file --codeoffset=0x2000 --output=default,-inhx032 --runtime=default,+clear,-init,-keep,-no_startup,-download,-config,-clib,+plib --output=+mcof,-elf:multilocs --stack=compiled:auto:auto:auto "--errformat=%f:%l: error: (%n) %s" "--warnformat=%f:%l: warning: (%n) %s" "--msgformat=%f:%l: advisory: (%n) %s"     $(COMPARISON_BUILD) --memorysummary dist/${CND_CONF}/${IMAGE_TYPE}/memoryfile.xml -odist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb.x.${IMAGE_TYPE}.${DEBUGGABLE_SUFFIX}  ${OBJECTFILES_QUOTED_IF_SPACED}     
 	
 	@echo Normalizing hex file
-	@"/opt/microchip/mplabx/v3.50/mplab_ide/platform/../mplab_ide/modules/../../bin/hexmate" --edf="/opt/microchip/mplabx/v3.50/mplab_ide/platform/../mplab_ide/modules/../../dat/en_msgs.txt" dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb.x.${IMAGE_TYPE}.hex -odist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb.x.${IMAGE_TYPE}.hex
+	@"/opt/microchip/mplabx/v4.05/mplab_ide/platform/../mplab_ide/modules/../../bin/hexmate" --edf="/opt/microchip/mplabx/v4.05/mplab_ide/platform/../mplab_ide/modules/../../dat/en_msgs.txt" dist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb.x.${IMAGE_TYPE}.hex -odist/${CND_CONF}/${IMAGE_TYPE}/picdem_fs_usb.x.${IMAGE_TYPE}.hex
 
 endif
 
